@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/comparejobscont"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="98dp"
+                android:layout_height="55dp"
+                android:text="Title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#FF9800" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/company_text"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="Company"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/company1"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/company2"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#FF9800" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/city_text"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="City"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/city1"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/city2"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#FF9800" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/state_text"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="State"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/state1"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/state2"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#FF9800" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/adjusted_yearly_salary_text"
+                android:layout_width="1dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="Adjusted Yearly Salary"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adjusted_yearly_salary1"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/adjusted_yearly_salary2"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#FF9800" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/adjusted_yearly_bonus_text"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="Adjusted Yearly Bonus"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adjusted_yearly_bonus1"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/adjusted_yearly_bonus2"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#FF9800" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/retirement_text"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="Retirement"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/retirement1"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/retirement2"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#FF9800" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/restricted_stock_text"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="Restricted Stock"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/restricted_stock1"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/restricted_stock2"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#FF9800" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/personalized_learning_and_development_text"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="Personalized Learning &amp; Development"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/personalized_learning_and_development1"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/personalized_learning_and_development2"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#FF9800" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/family_planning_assistance_text"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="Family Planning Assistance"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/family_planning_assistance1"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:id="@+id/family_planning_assistance2"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="#FF9800" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/compare_other_jobs_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleClick"
+            android:text="Compare Other Jobs" />
+
+        <Button
+            android:id="@+id/return_main_menu_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleClick"
+            android:text="Return to Main Menu" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

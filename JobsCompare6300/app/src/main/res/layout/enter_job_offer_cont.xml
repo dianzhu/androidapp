@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/enterjoboffercont"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="294dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/compare_with_current_job_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:onClick="handleClick"
+            android:text="Compare with Current Job" />
+
+        <Button
+            android:id="@+id/enter_another_job_offer_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:onClick="handleClick"
+            android:text="Enter Another Job Offer" />
+
+        <Button
+            android:id="@+id/return_main_menu_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:onClick="handleClick"
+            android:text="Return to Main Menu" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
